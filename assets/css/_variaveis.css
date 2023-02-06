@@ -1,0 +1,11 @@
+:root {
+    /* cores */
+    --amarelo: #f3c152;
+    --azul: #4a99f8;
+    --branco: #ffffff;
+    --cinza: #aaaaaa;
+    --preto: #000000;
+
+    /* fonte */
+    --opensans: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,93 @@
+@import url(_variaveis.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+body {
+    background-color: var(--azul);
+    font-family: var(--opensans);
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.container {
+    background-color: var(--branco);
+    border-radius: .3125rem;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 1.5rem;
+}
+
+.container__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 3rem;
+}
+
+.logo {
+    width: 100px;
+}
+
+.horario {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+
+    margin-bottom: 1.5rem;
+}
+
+.container .container__despertador.disable {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.container__despertador {
+    display: flex;
+    gap: 1rem;
+
+    margin-bottom: 1.5rem;
+}
+
+.despertador__lista {
+    border: .0625rem solid var(--cinza);
+    border-radius: .3125rem;
+
+    font-size: 1.15rem;
+    font-weight: 600;
+    text-align: center;
+
+    cursor: pointer;
+
+    width: 6.8125rem;
+    height: 3.1625rem;
+}
+
+.btn {
+    background-color: var(--azul);
+    border: none;
+    border-radius: .3125rem;
+
+    color: var(--branco);
+    font-size: 1rem;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    height: 3.1625rem;
+}
+
+.btn:hover {
+    background-color: var(--amarelo);
+}

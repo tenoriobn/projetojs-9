@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Despertador</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <figure class="container__logo">
+                <img src="assets/img/icon.png" alt="" class="logo">
+            </figure>
+            
+            <h1 class="horario" id="horario">04:20:01 PM</h1>
+
+            <div class="container__despertador" id="container__despertador">
+                <div class="despertador__controle">
+                    <select class="despertador__lista" id="despertador__lista">
+                        <option value="horas" selected hidden class="despertador__horas">horas</option>
+                    </select>
+                </div><!-- despertador__controle -->
+
+                <div class="despertador__controle">
+                    <select class="despertador__lista" id="despertador__lista">
+                        <option value="minutos" selected hidden class="despertador__minutos">minutos</option>
+                    </select>
+                </div><!-- despertador__controle -->
+
+                <div class="despertador__controle">
+                    <select class="despertador__lista" id="despertador__lista">
+                        <option value="am/pm" selected hidden class="despertador__periodo">am/pm</option>
+                    </select>
+                </div><!-- despertador__controle -->
+            </div><!-- container__despertador -->
+
+            <button class="btn" id="btn">Ativar alarme</button>
+        </div><!-- Container geral -->
+
+    </main>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
